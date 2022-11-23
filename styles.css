@@ -32,6 +32,9 @@ a {
   text-decoration: none;
 }
 
+main {
+  margin: 70px 0 0 0;
+}
 section {
   padding: 0 20px;
 
@@ -66,20 +69,27 @@ img {
 @media screen and (min-width: 768px) {
 
   h1 {
-    padding: 0 0 0 25px;
+    padding: 0 0 0 20px;
+  }
+
+  nav {
+    flex-shrink: 2;
+  }
+  ul {
+    flex-grow: 1;
   }
   
   li {
-    margin: 0 5px 0 0;
-    padding: 0 5px 0 0;
+    padding: 0 10px 0 0;
   }
 
   main section {
-    padding: 0 0 0 25px;
+    padding: 0 0 0 20px;
   }
   img {
     display: block;
-    margin: 150px;
+    margin: 135px 50px 135px 50px;
+    
   }
   .nav-bar {
     display: flex;
@@ -94,10 +104,6 @@ img {
     justify-content: space-between;
     align-items: center;
   }
-
-
-
-
 }
 
 
