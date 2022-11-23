@@ -8,12 +8,13 @@ body {
   font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
-
 }
 
 h1 {
   color: #20a8b4;
+  padding: 0 20px;
 }
+
 
 span {
   color: #ff5c0f;
@@ -21,14 +22,20 @@ span {
 
 ul {
   list-style: none;
-  
 }
 
+li {
+  padding: 0 20px;
+}
 a {
   color: #000;
   text-decoration: none;
 }
 
+section {
+  padding: 0 20px;
+
+}
 a:hover {
   color: #ff5c0f;
 }
@@ -37,23 +44,11 @@ img {
   display: none;
 }
 
-.nav-bar-main {
-  display: flex;
-  justify-content: stretch;
-}
-
 .container {
   display:flex;
   flex-direction: column;                                                                                                    
   padding: 0;
 }
-
-.mobile-nav-bar {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-}
-
 
 .button-style {
   display: flex;
